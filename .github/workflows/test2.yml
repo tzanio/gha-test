@@ -1,4 +1,4 @@
-name: test1
+name: test2
 
 on:
   # Run on every push of the branch
@@ -12,4 +12,4 @@ jobs:
   print:
     runs-on: ubuntu-18.04
     steps:
-    - run: echo "test1::print Hello World"
+    - run: echo "test2::print Hello World"
