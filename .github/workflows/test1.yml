@@ -1,0 +1,11 @@
+name: test1
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  print:
+    runs-on: ubuntu-18.04
+    steps:
+    - run: echo "test1::print Hello World"

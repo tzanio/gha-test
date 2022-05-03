@@ -1,0 +1,15 @@
+name: test1
+
+on:
+  # Run on every push of the branch
+  push:
+
+  # Never run or show up on any pull request!
+  pull_request:
+    branches-ignore:
+      - '*'
+jobs:
+  print:
+    runs-on: ubuntu-18.04
+    steps:
+    - run: echo "test1::print Hello World"
