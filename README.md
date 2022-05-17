@@ -58,8 +58,8 @@ GLVis is distributed under the terms of the BSD-3 license. All new
 contributions must be made under this license. See [LICENSE](LICENSE)
 and [NOTICE](NOTICE) for details.
 
-SPDX-License-Identifier: BSD-3-Clause
-LLNL Release Number: LLNL-CODE-443271
+SPDX-License-Identifier: BSD-3-Clause\
+LLNL Release Number: LLNL-CODE-443271\
 DOI: 10.11578/dc.20171025.1249
 
 
@@ -95,7 +95,7 @@ Key          |  Description
 <kbd>e</kbd> | Toggle the _elements_ state (see below for vector functions). The options are: <br>:white_small_square: show surface elements (corresponding to the function) <br>:white_small_square: show no surface elements <br>:white_small_square: show element attributes (2D) <br>:white_small_square: show element `det(J)` (2D) <br>:white_small_square: show element `1/det(J)` (2D) <br>:white_small_square: show element `kappa` (2D) <br>:white_small_square: show element `kappa + 1/kappa` (2D)
 <kbd>S</kbd> | Take an image snapshot or record a movie (in spinning mode). <br> By default, the screenshots are taken in `png` format, using libpng. <br> When GLVis is compiled with `libtiff` support (see [INSTALL](INSTALL)) then the <br> screenshots are taken internally and saved in TIFF format (`.tif` extension). <br> If both of these options are disabled during the build process, GLVis will use <br> `SDL` to take screenshots in `bmp` format, which it will then convert to `png`<br> if ImageMagick's `convert` tool is available.
 <kbd>G</kbd> | 3D scene export to [glTF format](https://www.khronos.org/gltf)
-<kbd>Ctrl</kbd> + <kbd>p</kbd> | Print to a PDF file using `gl2ps`. Other vector formats (SVG, EPS) are <br> also possible, but keep in mind that the printing takes a while and the <br> generated files are big.
+<kbd>Ctrl</kbd> + <kbd>p</kbd> | Print to a PDF file using `gl2ps`. Other vector formats (SVG, EPS) are also possible, but keep in mind that the printing takes a while and the generated files are big.
 <kbd>q</kbd> | Exit
 
 
