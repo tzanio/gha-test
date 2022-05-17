@@ -8,37 +8,39 @@
 
                              https://glvis.org
 
-[GLVis](https://glvis.org) is an OpenGL tool for visualization of finite element meshes and functions. 
-It is a multiplatform OpenGL application that can be built on Linux/Unix systems, 
-including Mac OS X, and under Windows. It can also be used in a Jupyter notebook, 
-or in a web browser, see https://glvis.org/live.
+[GLVis](https://glvis.org) is an OpenGL tool for visualization of
+finite element meshes and functions. It is a multiplatform OpenGL
+application that can be built on Linux/Unix systems, including Mac OS
+X, and under Windows. It can also be used in a Jupyter notebook, or in
+a web browser, see https://glvis.org/live.
 
-For building instructions, see the file [INSTALL](INSTALL). Copyright information and licensing
-restrictions can be found in the file [COPYRIGHT](COPYRIGHT).
+For building instructions, see the file [INSTALL](INSTALL). Copyright
+information and licensing restrictions can be found in the file
+[COPYRIGHT](COPYRIGHT).
 
-When started without any options, glvis starts a server which waits for a socket
-connections (on port `19916` by default) and visualizes any received data. This 
-way the results of simulations on a remote (parallel) machine can be visualized
-on the local user desktop.
+When started without any options, glvis starts a server which waits
+for a socket connections (on port `19916` by default) and visualizes
+any received data. This way the results of simulations on a remote
+(parallel) machine can be visualized on the local user desktop.
 
-GLVis can also be used to visualize a mesh with or without a finite element
-function (solution), as in
+GLVis can also be used to visualize a mesh with or without a finite
+element function (solution), as in
 
 ```
 glvis -m cube.mesh3d
 ```
 
-For parallel computations, GLVis supports input from several parallel socket
-connections as well as the visualization of parallel meshes and grid functions
-saved in separate files from the command line as in
+For parallel computations, GLVis supports input from several parallel
+socket connections as well as the visualization of parallel meshes and
+grid functions saved in separate files from the command line as in
 
 ```
 glvis -np 4 -m mesh -g solution
 ```
 
-In both cases, it will stitch the results to show the global mesh and solution.
-GLVis can also run a batch sequence of commands (GLVis scripts), or display
-previously saved socket streams.
+In both cases, it will stitch the results to show the global mesh and
+solution. GLVis can also run a batch sequence of commands (GLVis
+scripts), or display previously saved socket streams.
 
 For a complete list of command line options, type
 
@@ -46,13 +48,15 @@ For a complete list of command line options, type
 glvis -h
 ```
 
-Depending on the data type, variety of manipulations can be performed by using
-the mouse and by typing (case sensitive) keystrokes in the GLVis window. Below is
-a partial list of the available functionality. Some of these keys can also be provided
-as input, using the `-k` command-line option and the `keys` script command.
+Depending on the data type, variety of manipulations can be performed
+by using the mouse and by typing (case sensitive) keystrokes in the
+GLVis window. Below is a partial list of the available
+functionality. Some of these keys can also be provided as input, using
+the `-k` command-line option and the `keys` script command.
 
-GLVis is distributed under the terms of the BSD-3 license. All new contributions
-must be made under this license. See [LICENSE](LICENSE) and [NOTICE](NOTICE) for details.
+GLVis is distributed under the terms of the BSD-3 license. All new
+contributions must be made under this license. See [LICENSE](LICENSE)
+and [NOTICE](NOTICE) for details.
 
 SPDX-License-Identifier: BSD-3-Clause
 LLNL Release Number: LLNL-CODE-443271
