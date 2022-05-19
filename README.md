@@ -277,7 +277,7 @@ Key commands
 - <kbd>F</kbd> – Change the *vector-to-scalar function*. The options are:
   - magnitude: $\sqrt{v_x^2+v_y^2+v_z^2}$
   - $x$-component: `v_x`
-  - $y$-component: `v_y`
+  - $y$-component: `v_y`  
 ◽ $z$-component: `v_z`
 
   
