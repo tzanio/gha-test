@@ -8,8 +8,6 @@
 
                              https://glvis.org
 
-$z$-spinning
-
 [GLVis](https://glvis.org) is an OpenGL tool for visualization of finite element
 meshes and functions. It is a multiplatform application that can be built on
 Linux/Unix systems, including macOS, and under Windows. It can also be used in a
@@ -281,3 +279,6 @@ Key commands
   - $x$-component: `v_x`
   - $y$-component: `v_y`
   - $z$-component: `v_z`
+
+  
+$\sqrt{v_x^2+v_y^2+v_z^2}$
