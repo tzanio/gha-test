@@ -278,7 +278,7 @@ Key commands
   - magnitude: $\sqrt{v_x^2+v_y^2+v_z^2}$
   - $x$-component: `v_x`
   - $y$-component: `v_y`
-  - $z$-component: `v_z`
+  - \$z\$-component: `v_z`
 
   
 $\sqrt{v_x^2+v_y^2+v_z^2}$
