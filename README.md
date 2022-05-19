@@ -8,6 +8,8 @@
 
                              https://glvis.org
 
+Math test: $x^2+y^2$
+
 [GLVis](https://glvis.org) is an OpenGL tool for visualization of
 finite element meshes and functions. It is a multiplatform OpenGL
 application that can be built on Linux/Unix systems, including Mac OS
