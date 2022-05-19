@@ -279,7 +279,8 @@ Key commands
   - $x$-component: `v_x`
   - $y$-component: `v_y`  
 
-◽ $z$-component: `v_z`
+$z$-component: `v_z`
 
+$\int_0^\infty e^{-x^2} dx $
   
 $\sqrt{v_x^2+v_y^2+v_z^2}$
